@@ -1,5 +1,5 @@
 import './App.css';
-import MovieDetails from './Components/MovieDetails';
+import MovieDetails from './Components/HomePage';
 
 function App() {
 
