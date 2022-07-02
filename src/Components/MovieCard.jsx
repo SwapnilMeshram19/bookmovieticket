@@ -7,7 +7,7 @@ const MovieCard = ({ movie }) => {
     console.log(movie);
   return (
     <div>
-      <Card sx={{ width: "15vw", height:"83vh", marginBottom: "10px", padding:"5px"}} className="movie-card">
+      <Card sx={{ width: "15vw", height:"400px", marginBottom: "10px", padding:"5px"}} className="movie-card">
         <img src={movie.poster_path} style={{ width: "100%",height:"80%" }}></img>
         <h3>{movie.title}</h3>
        
