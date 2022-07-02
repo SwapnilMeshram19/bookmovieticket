@@ -3,9 +3,9 @@ const MovieDetails=({movie})=>{
     const bookingDetails=false;
     return (
         <div>
-            <img
+            {/* <img
                 src={movie.poster_path}
-            />
+            /> */}
         </div>
     )
 }
